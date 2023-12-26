@@ -14,5 +14,36 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  daisyui: {
+    themes: [
+      {
+        mytheme: {
+          primary: "#1b1b1b",
+
+          "black": "#1b1b1b",
+
+          secondary: "#EADABF",
+
+          white: "#f5f5f5",
+
+          accent: "#f3cc30",
+
+          neutral: "#221551",
+
+          "base-100": "#1a103c",
+
+          info: "#53c0f3",
+
+          success: "#71ead2",
+
+          warning: "#f3cc30",
+
+          error: "#e24056",
+        },
+      },
+    ],
+  },
+  plugins: [
+    require("daisyui")
+  ],
 }
