@@ -7,7 +7,6 @@ import Image from "next/image";
 import irdLogo from "./Assets/irdlogo.png"
 import cuLogo from "./Assets/culogo.png"
 import { PiMedalLight } from "react-icons/pi";
-import { FaTrophy } from "react-icons/fa";
 
 const playfair = Playfair_Display({ subsets: ['latin'] })
 
